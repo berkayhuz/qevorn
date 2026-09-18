@@ -52,7 +52,7 @@ for entry in \
     '1024 icon_512x512@2x.png'; do
     size="${entry%% *}"
     filename="${entry#* }"
-    sips -z "$size" "$size" "$RESOURCES/Branding/qevorn-light.png" \
+    sips -z "$size" "$size" "$RESOURCES/Branding/qevorn-dark.png" \
         --out "$ICONSET/$filename" >/dev/null
 done
 iconutil --convert icns --output "$RESOURCES/qevorn.icns" "$ICONSET"
