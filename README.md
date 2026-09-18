@@ -115,7 +115,7 @@ The DMG build script signs the app and disk image with an available Developer ID
 ### Build from source
 
 ```sh
-git clone <https://github.com/berkayhuz/qevorn>
+git clone https://github.com/berkayhuz/qevorn
 cd qevorn
 swift run
 ```
