@@ -119,7 +119,7 @@ NOTARY_PROFILE=qevorn-notary ./scripts/create-dmg.sh
 ### Build from source
 
 ```sh
-git clone <your-repository-url>
+git clone https://github.com/berkayhuz/qevorn
 cd qevorn
 swift run
 ```
