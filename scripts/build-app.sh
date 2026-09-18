@@ -70,8 +70,8 @@ cat > "$CONTENTS/Info.plist" <<'PLIST'
     <key>CFBundleDisplayName</key><string>qevorn</string>
     <key>CFBundlePackageType</key><string>APPL</string>
     <key>CFBundleIconFile</key><string>qevorn</string>
-    <key>CFBundleShortVersionString</key><string>1.0.0</string>
-    <key>CFBundleVersion</key><string>1</string>
+    <key>CFBundleShortVersionString</key><string>1.0.1</string>
+    <key>CFBundleVersion</key><string>2</string>
     <key>LSMinimumSystemVersion</key><string>14.0</string>
     <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
     <key>NSHighResolutionCapable</key><true/>

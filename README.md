@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/platform-macOS%2014%2B-111827?style=flat-square&logo=apple&logoColor=white" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Swift-6.0-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift 6.0">
     <img src="https://img.shields.io/badge/UI-SwiftUI%20%2B%20AppKit-2563EB?style=flat-square" alt="SwiftUI and AppKit">
-    <img src="https://img.shields.io/badge/version-1.0.0-22C55E?style=flat-square" alt="Version 1.0.0">
+    <img src="https://img.shields.io/badge/version-1.0.1-22C55E?style=flat-square" alt="Version 1.0.1">
     <img src="https://img.shields.io/badge/privacy-on--device-0F766E?style=flat-square" alt="On-device processing">
   </p>
 
@@ -104,9 +104,13 @@ qevorn does not use a web view, a remote API, a server, or a third-party runtime
 
 ### DMG
 
-Open [`qevorn-v1.0.0.dmg`](dist/qevorn-v1.0.0.dmg), then drag **qevorn.app** into **Applications**.
+Open [`qevorn-v1.0.1.dmg`](dist/qevorn-v1.0.1.dmg), then drag **qevorn.app** into **Applications**.
 
-The DMG build script signs the app and disk image with an available Developer ID Application certificate. Notarize and staple the DMG before public distribution.
+The DMG build script signs the app and disk image with an available Developer ID Application certificate. To notarize and staple both the app and the DMG, set the name of your saved `notarytool` profile:
+
+```sh
+NOTARY_PROFILE=qevorn-notary ./scripts/create-dmg.sh
+```
 
 ### Build from source
 
@@ -168,7 +172,7 @@ Create the versioned DMG:
 ./scripts/create-dmg.sh
 ```
 
-The script rebuilds `qevorn.app`, creates `dist/qevorn-v1.0.0.dmg`, and verifies the disk image.
+The script rebuilds `qevorn.app`, creates `dist/qevorn-v1.0.1.dmg`, and verifies the disk image. Add `NOTARY_PROFILE=qevorn-notary` to submit both artifacts to Apple for notarization and staple the returned tickets.
 
 ## Project
 
