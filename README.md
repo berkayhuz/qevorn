@@ -14,9 +14,12 @@
   </p>
 
   <p>
-    <a href="#install">
-      <img src="https://img.shields.io/badge/Get%20qevorn%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Get qevorn for macOS">
-    </a>
+  <a href="https://github.com/berkayhuz/qevorn/releases/download/v1.0.0/qevorn-v1.0.0.dmg">
+    <img
+      src="https://img.shields.io/badge/Get%20qevorn%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white"
+      alt="Get qevorn for macOS"
+    >
+  </a>
   </p>
 </div>
 
