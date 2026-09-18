@@ -11,12 +11,16 @@
     <img src="https://img.shields.io/badge/UI-SwiftUI%20%2B%20AppKit-2563EB?style=flat-square" alt="SwiftUI and AppKit">
     <img src="https://img.shields.io/badge/version-1.0.1-22C55E?style=flat-square" alt="Version 1.0.1">
     <img src="https://img.shields.io/badge/privacy-on--device-0F766E?style=flat-square" alt="On-device processing">
+    <img src="https://img.shields.io/github/downloads/berkayhuz/qevorn/total?style=flat-square&label=downloads" alt="GitHub Downloads">
   </p>
 
   <p>
-    <a href="#install">
-      <img src="https://img.shields.io/badge/Get%20qevorn%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Get qevorn for macOS">
-    </a>
+  <a href="https://github.com/berkayhuz/qevorn/releases/download/v1.0.0/qevorn-v1.0.0.dmg">
+    <img
+      src="https://img.shields.io/badge/Get%20qevorn%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white"
+      alt="Get qevorn for macOS"
+    >
+  </a>
   </p>
 </div>
 
