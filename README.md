@@ -11,6 +11,7 @@
     <img src="https://img.shields.io/badge/UI-SwiftUI%20%2B%20AppKit-2563EB?style=flat-square" alt="SwiftUI and AppKit">
     <img src="https://img.shields.io/badge/version-1.0.0-22C55E?style=flat-square" alt="Version 1.0.0">
     <img src="https://img.shields.io/badge/privacy-on--device-0F766E?style=flat-square" alt="On-device processing">
+    <img src="https://img.shields.io/github/downloads/berkayhuz/qevorn/total?style=flat-square&label=downloads" alt="GitHub Downloads">
   </p>
 
   <p>
